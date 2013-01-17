@@ -1,0 +1,11 @@
+A IFSAR cell status shapefile created and maintained by Dayne Broderson
+at the Geographic Information Network of Alaska
+http://gina.alaska.edu
+
+I've just taken the various status shapefiles and status maps and put the
+details I care about (what year was it collected, was it puchased) into
+a single shapefile.
+
+questions:  support@gina.alaska.edu
+
+-dayne

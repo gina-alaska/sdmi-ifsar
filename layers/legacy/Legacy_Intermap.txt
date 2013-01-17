@@ -1,0 +1,7 @@
+From the Intermap_Alaska_COVERATE_Files_110507_uplifted_ifsar shapefile.
+
+Merged the areas into a single, easier to use, shape in status maps.
+
+Dayne Broderson
+
+Questions: support@gina.alaska.edu
