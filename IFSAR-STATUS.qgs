@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-2339865.163805</xmin>
-            <ymin>-34958.943722</ymin>
-            <xmax>1636655.444605</xmax>
-            <ymax>2804588.428322</ymax>
+            <xmin>-2158064.874741</xmin>
+            <ymin>68271.471297</ymin>
+            <xmax>1460626.593289</xmax>
+            <ymax>2652300.792445</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,11 +24,6 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="alaska-boundary" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="alaska_boundary20130117130921798" visible="1"/>
-            </filegroup>
-        </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="USGS">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Area1b_with_additions" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
@@ -46,15 +41,20 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="alaska_250000_py" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="alaska_250000_py20130117144026541" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="IFSAR-STATUS">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Legacy_Intermap" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Legacy_Intermap20130117130021035" visible="1"/>
+                </filegroup>
+            </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OvercollectCells_20121228" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="OvercollectCells_2012122820130117131144537" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Legacy_Intermap" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Legacy_Intermap20130117130021035" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SDMI-IFSAR-STATUS" showFeatureCount="0">
@@ -62,7 +62,7 @@
                     <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS20130117130040252" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SDMI-IFSAR-STATUS" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Collected IFSAR" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS20130117130010427" visible="1"/>
                 </filegroup>
@@ -76,73 +76,88 @@
     </legend>
     <Composer title="Composer 1" visible="1">
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" numPages="1" paperHeight="210" printAsRaster="0">
-            <ComposerLegend symbolWidth="7" title="SDMI IFSAR" groupSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" map="0" layerSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" wrapChar="" layerFont="Sans,12,-1,5,50,0,0,0,0,0" columnCount="1" iconLabelSpace="2" groupFont="Sans,14,-1,5,50,0,0,0,0,0" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2">
+            <ComposerLabel valign="32" labelText="http://alaskamapped.org/dem&#xa;http://ifsar.gina.alaska.edu&#xa;support@gina.alaska.edu" halign="1" margin="1">
+                <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="55.199" x="212.218" y="172.31" rotation="0" height="14.9186" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Three products: Bare-earth DEM (DTM), Surface DEM (DSM), and an orthorectified radar intensity image (ORI).&#xa;&#xa;The elevation models have a 5-meter post spacing, 22-foot contour equivalent accuracy, vertical accuracy of 3-meter LE90 (0-10 degree slope) and horizontal accuracy of 12.2-meter CE90.&#xa;&#xa;Processed and delivered in Alaska Albers Equal Area Conic NAVD88 and NAD83.&#xa;&#xa;The data includes FGDC Metadata, hydrologic enforcement, quality masks, and no more than 3% of void fill." halign="1" margin="1">
+                <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="60.4205" x="233.477" y="12.6809" rotation="0" height="88.393" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLegend symbolWidth="7" title="Alaska IFSAR" groupSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" map="0" layerSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" wrapChar="" layerFont="Sans,12,-1,5,50,0,0,0,0,0" columnCount="1" iconLabelSpace="2" groupFont="Sans,14,-1,5,50,0,0,0,0,0" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2">
                 <Model autoUpdate="1">
-                    <LayerItem layerId="Alaska_Cells_201120130117125957103" text="Alaska_Cells_2011" showFeatureCount="0">
-                        <VectorClassificationItemNg text="">
+                    <LayerItem layerId="SDMI_IFSAR_STATUS20130117130010427" text="Collected IFSAR" showFeatureCount="0">
+                        <VectorClassificationItemNg text="2010 (Delivered)">
                             <symbols>
                                 <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="color" v="119,180,20,255"/>
+                                        <prop k="color" v="0,170,0,255"/>
                                         <prop k="color_border" v="0,0,0,255"/>
                                         <prop k="offset" v="0,0"/>
-                                        <prop k="style" v="no"/>
-                                        <prop k="style_border" v="solid"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="no"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg text="2012 (Processing QA/QC)">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="color" v="0,232,0,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="no"/>
                                         <prop k="width_border" v="0.26"/>
                                     </layer>
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="OvercollectCells_2012122820130117131144537" text="OvercollectCells_20121228" showFeatureCount="0">
-                        <VectorClassificationItemNg text="">
+                    <LayerItem layerId="OvercollectCells_2012122820130117131144537" text="" showFeatureCount="0">
+                        <VectorClassificationItemNg text="Overcollect (Unpurchased)">
                             <symbols>
                                 <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="color" v="97,139,45,255"/>
+                                        <prop k="color" v="119,170,213,255"/>
                                         <prop k="color_border" v="0,0,0,255"/>
                                         <prop k="offset" v="0,0"/>
                                         <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
+                                        <prop k="style_border" v="no"/>
                                         <prop k="width_border" v="0.26"/>
                                     </layer>
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="SDMI_IFSAR_STATUS20130117130010427" text="SDMI-IFSAR-STATUS" showFeatureCount="0">
-                        <VectorClassificationItemNg text="2010">
+                    <LayerItem layerId="Legacy_Intermap20130117130021035" text="" showFeatureCount="0">
+                        <VectorClassificationItemNg text="Uplifted Legacy">
                             <symbols>
-                                <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <symbol outputUnit="MM" alpha="0.647059" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="color" v="170,255,255,255"/>
+                                        <prop k="color" v="170,0,0,255"/>
                                         <prop k="color_border" v="0,0,0,255"/>
                                         <prop k="offset" v="0,0"/>
                                         <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                        <VectorClassificationItemNg text="2012">
-                            <symbols>
-                                <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="color" v="255,255,127,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
+                                        <prop k="style_border" v="no"/>
                                         <prop k="width_border" v="0.26"/>
                                     </layer>
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="GINA_Bathymetry_bw20130117131231334" text="GINA.Bathymetry.bw" showFeatureCount="0"/>
                 </Model>
-                <ComposerItem width="61" x="229.348" y="16.6004" rotation="0" height="65.6" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.2891" id="" positionLock="false">
+                <ComposerItem width="67" x="21.6056" y="19.2112" rotation="0" height="47.4" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -160,7 +175,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="-34958.9" xmin="-2.33987e+06" ymax="2.80209e+06" xmax="1.63666e+06"/>
+                <Extent ymin="68271.5" xmin="-2.15806e+06" ymax="2.6523e+06" xmax="1.46381e+06"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" show="0">
                     <symbol outputUnit="MM" alpha="1" type="line" name="">
@@ -177,7 +192,7 @@
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0"/>
                 </Grid>
-                <ComposerItem width="298.807" x="-0.873706" y="-2.18427" rotation="0" height="213.184" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.2891" id="" positionLock="false">
+                <ComposerItem width="298.807" x="-0.873706" y="-2.18427" rotation="0" height="213.184" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -276,7 +291,7 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" alpha="0.486275" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="119,180,20,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -509,7 +524,7 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2"/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Legacy_Intermap20130117130021035</id>
             <datasource>./layers/legacy/Legacy_Intermap.shp</datasource>
             <title></title>
@@ -532,13 +547,13 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" alpha="0.647059" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="78,41,210,255"/>
+                            <prop k="color" v="170,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
+                            <prop k="style_border" v="no"/>
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
@@ -546,8 +561,97 @@
                 <rotation field=""/>
                 <sizescale field="" scalemethod="area"/>
             </renderer-v2>
-            <customproperties/>
-            <displayfield></displayfield>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="10"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>TYPE</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -569,6 +673,19 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
+            <edittypes>
+                <edittype type="0" name="ACQ_END"/>
+                <edittype type="0" name="ACQ_START"/>
+                <edittype type="0" name="Area_sqKM"/>
+                <edittype type="0" name="Corpted"/>
+                <edittype type="0" name="DSM"/>
+                <edittype type="0" name="DTM"/>
+                <edittype type="0" name="ORI"/>
+                <edittype type="0" name="ORI_RESOLU"/>
+                <edittype type="0" name="PROJNAME"/>
+                <edittype type="0" name="TILENAME"/>
+                <edittype type="0" name="TYPE"/>
+            </edittypes>
             <editform></editform>
             <editforminit></editforminit>
             <annotationform></annotationform>
@@ -602,11 +719,11 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="97,139,45,255"/>
+                            <prop k="color" v="119,170,213,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
+                            <prop k="style_border" v="no"/>
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
@@ -614,8 +731,97 @@
                 <rotation field=""/>
                 <sizescale field="" scalemethod="area"/>
             </renderer-v2>
-            <customproperties/>
-            <displayfield></displayfield>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="10"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value=""/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>Num_2010</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -637,6 +843,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Num_2010"/>
+                <edittype type="0" name="Num_2011"/>
+            </edittypes>
             <editform></editform>
             <editforminit></editforminit>
             <annotationform></annotationform>
@@ -650,7 +860,7 @@
             <datasource>./layers/general/SDMI-IFSAR-STATUS.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>SDMI-IFSAR-STATUS</layername>
+            <layername>Collected IFSAR</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -668,27 +878,27 @@
             <vectorjoins/>
             <renderer-v2 attr="year" symbollevels="0" type="categorizedSymbol">
                 <categories>
-                    <category symbol="0" value="2010" label="2010"/>
-                    <category symbol="1" value="2012" label="2012"/>
+                    <category symbol="0" value="2010" label="2010 (Delivered)"/>
+                    <category symbol="1" value="2012" label="2012 (Processing QA/QC)"/>
                 </categories>
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="170,255,255,255"/>
+                            <prop k="color" v="0,170,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
+                            <prop k="style_border" v="no"/>
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="255,255,127,255"/>
+                            <prop k="color" v="0,232,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
+                            <prop k="style_border" v="no"/>
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
@@ -1038,11 +1248,11 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>alaska_boundary20130117130921798</id>
-            <datasource>./layers/alaska-boundary/alaska-boundary.shp</datasource>
+            <id>alaska_250000_py20130117144026541</id>
+            <datasource>./layers/alaska-boundary/alaska_250000_py.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>alaska-boundary</layername>
+            <layername>alaska_250000_py</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -1060,14 +1270,14 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" alpha="0.745098" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="174,146,108,255"/>
+                            <prop k="color" v="95,117,207,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="no"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.3"/>
+                            <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -1164,7 +1374,7 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <displayfield>BUFF_DIST</displayfield>
+            <displayfield>CODE</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -1187,8 +1397,9 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="BUFF_DIST"/>
-                <edittype type="0" name="SUM_SUM_ar"/>
+                <edittype type="0" name="CODE"/>
+                <edittype type="0" name="SHAPE_Area"/>
+                <edittype type="0" name="SHAPE_Leng"/>
             </edittypes>
             <editform></editform>
             <editforminit></editforminit>
