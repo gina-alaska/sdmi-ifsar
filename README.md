@@ -18,7 +18,30 @@ this data was uplifted to public domain for the 2010 IFSAR collection.
 Interior of Alaska IFSAR collection split between two Fugro Earth Data 
 and Intermap.  Majority of that collection has been purchased and delivered.
 
+Legacy shapefile is found in: layers/legacy
+
 2012 IFSAR Collection
 ---------------------
 
 Flown but not yet delivered to the USGS or State of Alaska
+
+Using this repository
+---------------------
+
+You can grab a copy of the latest version of this repository at:
+https://github.com/gina-alaska/sdmi-ifsar/archive/master.zip
+
+Take a look in the:
+
+layers/general/SDMI-IFSAR-STATUS
+
+This shapefile is my attempt at organizing the status of all of 
+the SDMI IFSAR collections.  You will need to use the attributes 
+to determine what coverage is available.  Take note of the 'year' 
+attribute to determine if data will be available:  2010 is all 
+avaialble right now and the 2012 collection will be available 
+at the end of this year.
+
+Questions?
+----------
+email: support@gina.alaska.edu
