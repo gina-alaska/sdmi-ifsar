@@ -36,11 +36,11 @@ Take a look in the:
 layers/general/SDMI-IFSAR-STATUS
 
 This shapefile is my attempt at organizing the status of all of 
-the SDMI IFSAR collections.  You will need to use the attributes 
-to determine what coverage is available.  Take note of the 'year' 
-attribute to determine if data will be available:  2010 is all 
-avaialble right now and the 2012 collection will be available 
-at the end of this year.
+the new SDMI IFSAR collections. 
+
+You will need to use the 'year' attribute to determine what coverage 
+is available.  The 2010 collection is all available right now and 
+the 2012 collection will be available at the end of this year.
 
 Questions?
 ----------
