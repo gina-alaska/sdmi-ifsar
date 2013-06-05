@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-2339865.163805</xmin>
-            <ymin>-332415.403291</ymin>
-            <xmax>1636655.444605</xmax>
-            <ymax>3102044.887891</ymax>
+            <xmin>-2337927.504752</xmin>
+            <ymin>-108705.848039</ymin>
+            <xmax>1640489.223300</xmax>
+            <ymax>2829278.111781</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,6 +24,11 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="all_ortho_tiles" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="all_ortho_tiles20130222102128965" visible="0"/>
+            </filegroup>
+        </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="USGS">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Area1b_with_additions" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
@@ -41,15 +46,15 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="alaska_250000_py" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="alaska_250000_py" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="alaska_250000_py20130117144026541" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="alaska_250000_py20130117144026541" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="IFSAR-STATUS">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Legacy_Intermap" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Legacy_Intermap" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Legacy_Intermap20130117130021035" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="Legacy_Intermap20130117130021035" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OvercollectCells_20121228" showFeatureCount="0">
@@ -57,9 +62,9 @@
                     <legendlayerfile isInOverview="0" layerid="OvercollectCells_2012122820130117131144537" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="SDMI-IFSAR-STATUS" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS20130117130040252" visible="1"/>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SDMI-IFSAR-STATUS" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS20130117130040252" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Collected IFSAR" showFeatureCount="0">
@@ -70,7 +75,12 @@
         </legendgroup>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GINA.Bathymetry.bw" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="GINA_Bathymetry_bw20130117131231334" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="GINA_Bathymetry_bw20130222102000904" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GINA.Bathymetry.rgb" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="GINA_Bathymetry_rgb20130222101855224" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -166,15 +176,33 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="GINA_Bathymetry_rgb20130222101855224" text="GINA.Bathymetry.rgb"/>
+                <LayerItem layerId="GINA_Bathymetry_bw20130222102000904" text="GINA.Bathymetry.bw"/>
+                <LayerItem layerId="all_ortho_tiles20130222102128965" text="all_ortho_tiles">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="177,148,53,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
             </Model>
-            <ComposerItem width="67" x="21.6056" y="19.2112" rotation="0" height="47.4" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
+            <ComposerItem width="4" x="21.6056" y="19.2112" rotation="0" height="47.5" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.61409" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
-        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+        <Composition printResolution="120" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="9">
+    <projectlayers layercount="11">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>AK_DEM5_AOI20130117125957091</id>
             <datasource>./layers/usgs-status/AK_DEM5_AOI/AK_DEM5_AOI.shp</datasource>
@@ -464,12 +492,67 @@
             <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>GINA_Bathymetry_bw20130117131231334</id>
-            <datasource>crs=EPSG:3338&amp;featureCount=10&amp;format=image/png&amp;layers=GINA.Bathymetry.bw&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>GINA_Bathymetry_bw20130222102000904</id>
+            <datasource>http://wms.alaskamapped.org/extras</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GINA.Bathymetry.bw</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>172</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>GINA.Bathymetry.bw</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/jpeg</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>GINA_Bathymetry_rgb20130222101855224</id>
+            <datasource>http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>GINA.Bathymetry.rgb</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -486,19 +569,23 @@
             <customproperties/>
             <provider>wms</provider>
             <rasterproperties>
-                <wmsFormat></wmsFormat>
-                <mDrawingStyle>UndefinedDrawingStyle</mDrawingStyle>
+                <wmsSublayer>
+                    <name>GINA.Bathymetry.rgb</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/jpeg</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
                 <mRedBandName>Not Set</mRedBandName>
                 <mGreenBandName>Not Set</mGreenBandName>
                 <mBlueBandName>Not Set</mBlueBandName>
-                <mGrayBandName>Not Set</mGrayBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
-                <mRGBMinimumMaximumEstimated boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
                 <mUserDefinedGrayMinimumMaximum boolean="false"/>
-                <mGrayMinimumMaximumEstimated boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
                 <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
                 <contrastEnhancementMinMaxValues>
                     <minMaxEntry>
@@ -507,6 +594,12 @@
                     </minMaxEntry>
                 </contrastEnhancementMinMaxValues>
                 <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -1051,7 +1144,6 @@
                 <categories>
                     <category symbol="0" value="CAN" label="Over Collect"/>
                     <category symbol="1" value="PART" label="Partial Delivery"/>
-                    <category symbol="2" value="SOA" label="SOA"/>
                 </categories>
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
@@ -1070,16 +1162,6 @@
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="0,0,255,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="dense5"/>
                             <prop k="style_border" v="solid"/>
                             <prop k="width_border" v="0.26"/>
                         </layer>
@@ -1382,6 +1464,74 @@
                 <edittype type="0" name="CODE"/>
                 <edittype type="0" name="SHAPE_Area"/>
                 <edittype type="0" name="SHAPE_Leng"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>all_ortho_tiles20130222102128965</id>
+            <datasource>/home/dbroders/projects/gina-sdmi-ortho/ortho/all_ortho_tiles/all_ortho_tiles.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>all_ortho_tiles</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="0.6" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="255,253,175,153"/>
+                            <prop k="color_border" v="255,253,175,153"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="dense4"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>LOCATION</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans Serif"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="LOCATION"/>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
