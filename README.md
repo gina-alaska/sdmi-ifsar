@@ -6,7 +6,7 @@ of the IFSAR collections in the state of Alaska.  Check out the project website 
 
 ![current status map](./maps/Alaska-IFSAR-STATUS-current-thumb.jpg "Current Status")
 
-[full resolution status map](maps/Alaska-IFSAR-STATUS-current.jpg)
+[full resolution status map](maps/Alaska-IFSAR-STATUS-current.png)
 
 There are currently three major buckets of data tracked here:
 
