@@ -4,6 +4,8 @@ GINA SDMI IFSAR
 The shapefiles to help GINA keep track of the status
 of the IFSAR collections in the state of Alaska.
 
+![current status map](./maps/Alaska-IFSAR-STATUS-current-thumb.jpg "Current Status")
+
 Currently this falls into 3 major buckets:
 
 Legacy IFSAR
