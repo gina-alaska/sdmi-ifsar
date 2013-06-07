@@ -1,125 +1,116 @@
 <Composer title="Composer 1" visible="1">
- <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" numPages="1" paperHeight="210" printAsRaster="0">
-  <ComposerLabel valign="32" labelText="http://alaskamapped.org/dem&#xa;http://ifsar.gina.alaska.edu&#xa;support@gina.alaska.edu" halign="1" margin="1">
-   <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="55.199" x="212.218" y="172.31" rotation="0" height="14.9186" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" labelText="Three products: Bare-earth DEM (DTM), Surface DEM (DSM), and an orthorectified radar intensity image (ORI).&#xa;&#xa;The elevation models have a 5-meter post spacing, 22-foot contour equivalent accuracy, vertical accuracy of 3-meter LE90 (0-10 degree slope) and horizontal accuracy of 12.2-meter CE90.&#xa;&#xa;Processed and delivered in Alaska Albers Equal Area Conic NAVD88 and NAD83.&#xa;&#xa;The data includes FGDC Metadata, hydrologic enforcement, quality masks, and no more than 3% of void fill." halign="1" margin="1">
-   <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="60.4205" x="233.477" y="12.6809" rotation="0" height="88.393" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLegend symbolWidth="7" title="Alaska IFSAR" groupSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" map="0" layerSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" wrapChar="" layerFont="Sans,12,-1,5,50,0,0,0,0,0" columnCount="1" iconLabelSpace="2" groupFont="Sans,14,-1,5,50,0,0,0,0,0" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2">
-   <Model autoUpdate="1">
-    <LayerItem layerId="SDMI_IFSAR_STATUS20130117130010427" text="Collected IFSAR" showFeatureCount="0">
-     <VectorClassificationItemNg text="2010 (Delivered)">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleFill" locked="0">
-         <prop k="color" v="0,170,0,255"/>
-         <prop k="color_border" v="0,0,0,255"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="style" v="solid"/>
-         <prop k="style_border" v="no"/>
-         <prop k="width_border" v="0.26"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-     <VectorClassificationItemNg text="2012 (Processing QA/QC)">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleFill" locked="0">
-         <prop k="color" v="0,232,0,255"/>
-         <prop k="color_border" v="0,0,0,255"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="style" v="solid"/>
-         <prop k="style_border" v="no"/>
-         <prop k="width_border" v="0.26"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="OvercollectCells_2012122820130117131144537" text="" showFeatureCount="0">
-     <VectorClassificationItemNg text="Overcollect (Unpurchased)">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleFill" locked="0">
-         <prop k="color" v="119,170,213,255"/>
-         <prop k="color_border" v="0,0,0,255"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="style" v="solid"/>
-         <prop k="style_border" v="no"/>
-         <prop k="width_border" v="0.26"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="Legacy_Intermap20130117130021035" text="" showFeatureCount="0">
-     <VectorClassificationItemNg text="Uplifted Legacy">
-      <symbols>
-       <symbol outputUnit="MM" alpha="0.647059" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleFill" locked="0">
-         <prop k="color" v="170,0,0,255"/>
-         <prop k="color_border" v="0,0,0,255"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="style" v="solid"/>
-         <prop k="style_border" v="no"/>
-         <prop k="width_border" v="0.26"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-   </Model>
-   <ComposerItem width="67" x="21.6056" y="19.2112" rotation="0" height="47.4" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLegend>
-  <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
-   <overviewFrame overviewFrameMap="-1">
-    <symbol outputUnit="MM" alpha="0.3" type="fill" name="">
-     <layer pass="0" class="SimpleFill" locked="0">
-      <prop k="color" v="255,0,0,125"/>
-      <prop k="color_border" v="0,0,0,255"/>
-      <prop k="offset" v="0,0"/>
-      <prop k="style" v="solid"/>
-      <prop k="style_border" v="no"/>
-      <prop k="width_border" v="0.26"/>
-     </layer>
-    </symbol>
-   </overviewFrame>
-   <Extent ymin="68271.5" xmin="-2.15806e+06" ymax="2.6523e+06" xmax="1.46381e+06"/>
-   <LayerSet/>
-   <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" show="0">
-    <symbol outputUnit="MM" alpha="1" type="line" name="">
-     <layer pass="0" class="SimpleLine" locked="0">
-      <prop k="capstyle" v="flat"/>
-      <prop k="color" v="0,0,0,255"/>
-      <prop k="customdash" v="5;2"/>
-      <prop k="joinstyle" v="bevel"/>
-      <prop k="offset" v="0"/>
-      <prop k="penstyle" v="solid"/>
-      <prop k="use_custom_dash" v="0"/>
-      <prop k="width" v="0.3"/>
-     </layer>
-    </symbol>
-    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0"/>
-   </Grid>
-   <ComposerItem width="298.807" x="-0.873706" y="-2.18427" rotation="0" height="213.184" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerMap>
- </Composition>
+ <ComposerLabel valign="32" labelText="http://alaskamapped.org/dem&#xa;http://ifsar.gina.alaska.edu&#xa;support@gina.alaska.edu" halign="1" margin="1">
+  <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="55.199" x="212.218" y="172.31" rotation="0" height="14.9186" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
+ <ComposerLabel valign="32" labelText="Three products: Bare-earth DEM (DTM), Surface DEM (DSM), and an orthorectified radar intensity image (ORI).&#xa;&#xa;The elevation models have a 5-meter post spacing, 22-foot contour equivalent accuracy, vertical accuracy of 3-meter LE90 (0-10 degree slope) and horizontal accuracy of 12.2-meter CE90.&#xa;&#xa;Processed and delivered in Alaska Albers Equal Area Conic NAVD88 and NAD83.&#xa;&#xa;The data includes FGDC Metadata, hydrologic enforcement, quality masks, and no more than 3% of void fill." halign="1" margin="1">
+  <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="60.4205" x="233.477" y="12.6809" rotation="0" height="88.393" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.68121" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
+ <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="68271.5" xmin="-2.15806e+06" ymax="2.6523e+06" xmax="1.46381e+06"/>
+  <LayerSet/>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="298.807" x="-0.873706" y="-2.18427" rotation="0" height="213.184" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.01422" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerLegend symbolWidth="7" title="Alaska IFSAR" boxSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Sans,14,-1,5,50,0,0,0,0,0" layerFont="Sans,12,-1,5,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Sans,12,-1,5,50,0,0,0,0,0">
+  <Model autoUpdate="1">
+   <LayerItem layerId="SDMI_IFSAR_STATUS20130117130010427" text="Collected IFSAR">
+    <VectorClassificationItemNg text="2010 (Delivered)">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="0,170,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="no"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+    <VectorClassificationItemNg text="2012">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="0,232,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="no"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="OvercollectCells_2012122820130117131144537" text="">
+    <VectorClassificationItemNg text="Overcollect (Unpurchased)">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="119,170,213,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="no"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="Legacy_Intermap20130117130021035" text="">
+    <VectorClassificationItemNg text="Uplifted Legacy">
+     <symbols>
+      <symbol outputUnit="MM" alpha="0.647059" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="170,0,0,165"/>
+        <prop k="color_border" v="0,0,0,165"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="no"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="SDMI_IFSAR_STATUS20130117130040252" text="">
+    <VectorClassificationItemNg text="Delivered to State">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="0,0,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="diagonal_x"/>
+        <prop k="style_border" v="no"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="62" x="21.6056" y="19.2112" rotation="0" height="54.0438" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.01422" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <Composition printResolution="120" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
 </Composer>
