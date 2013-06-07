@@ -6,6 +6,8 @@ of the IFSAR collections in the state of Alaska.
 
 ![current status map](./maps/Alaska-IFSAR-STATUS-current-thumb.jpg "Current Status")
 
+[current status map](./maps/Alaska-IFSAR-STATUS-current.jpg "Current Status")
+
 Currently this falls into 3 major buckets:
 
 Legacy IFSAR
