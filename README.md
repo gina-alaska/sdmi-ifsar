@@ -62,7 +62,7 @@ has the URL to the directory with the tar ball and MD5 checksum for that geocell
 
 For example:
 The N61W147 geocell has the following URL in the DSM attribute:
-http://ifsar.gina.alaska.edu/data/2010/DSM/IFSAR.SDMI.2010.FUGRO.DSM\_N61W147/
+http://ifsar.gina.alaska.edu/data/2010/DSM/IFSAR.SDMI.2010.FUGRO.DSM_N61W147/
 
   IFSAR.SDMI.2010.FUGRO.DSM\_N61W147.tar.gz
   IFSAR.SDMI.2010.FUGRO.DSM\_N61W147.tar.gz.md5
