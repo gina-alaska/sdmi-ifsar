@@ -16,18 +16,30 @@ Legacy IFSAR
 IFSAR flown and collected by Intermap in the early years.  All of
 this data was uplifted to public domain for the 2010 IFSAR collection.
 
+Legacy shapefile is found in: layers/legacy
+
+
 2010 IFSAR Collection
 ---------------------
 
 Interior of Alaska IFSAR collection split between two Fugro Earth Data 
 and Intermap.  Majority of that collection has been purchased and delivered.
 
-Legacy shapefile is found in: layers/legacy
+Reorganized 2010 data can be downloaded from ifsar.gina.alaska.edu/Data/2010/
+
 
 2012 IFSAR Collection
 ---------------------
 
-Flown but not yet delivered to the USGS or State of Alaska
+Partiall delivery in original format USGS or State of Alaska
+
+
+Jekyll-Bootstrap ifsar-site
+---------------------
+
+Copy of the website build directory for ifsar.gina.alaska.edu is in Branch
+ifsar-site. 
+
 
 Using this repository
 ---------------------
