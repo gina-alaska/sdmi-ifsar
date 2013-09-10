@@ -1,0 +1,12 @@
+
+http://ifsar.gina.alaska.edu/tags.html
+http://ifsar.gina.alaska.edu/index.old.html
+http://ifsar.gina.alaska.edu/new-page.html
+http://ifsar.gina.alaska.edu/sitemap.txt
+http://ifsar.gina.alaska.edu/index.html
+http://ifsar.gina.alaska.edu/pages.html
+http://ifsar.gina.alaska.edu/archive.html
+http://ifsar.gina.alaska.edu/categories.html
+http://ifsar.gina.alaska.edu/atom.xml
+
+http://ifsar.gina.alaska.edu/lessons/2011/12/29/jekyll-introduction

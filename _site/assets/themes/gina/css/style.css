@@ -1,0 +1,16 @@
+/* Override some defaults */
+.container > footer {
+  margin-top: 20px;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+.nav-list li {
+	font-size: 1.2em;
+}
+
+.nav-list li.nav-header{
+	padding-left: 0;
+	font-size: 1.3em;
+}
