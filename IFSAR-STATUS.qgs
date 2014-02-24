@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="SDMI_IFSAR_STATUS_2013122420131224153203794">
+    <legend updateDrawingOrder="true" activeLayer="alaska_250000_py20130117144026541">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="alaska_250000_py" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="alaska_250000_py20130117144026541" visible="1"/>
@@ -35,7 +35,7 @@
                     <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS_2013122420131224160738199" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Updated February 11, 2014" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Updated February 24, 2014" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS_2013122420131224153203794" visible="1"/>
                 </filegroup>
@@ -67,7 +67,7 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Composer 1" visible="0">
+    <Composer title="Composer 1" visible="1">
         <Composition printResolution="120" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerLabel valign="32" labelText="http://alaskamapped.org/dem&#xa;http://ifsar.gina.alaska.edu&#xa;support@gina.alaska.edu" htmlState="0" halign="1" margin="1">
                 <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
@@ -95,7 +95,7 @@
                 </styles>
                 <Model autoUpdate="1">
                     <GroupItem userText="ALASKA IFSAR STATUS" style="group" text="ALASKA IFSAR STATUS">
-                        <LayerItem layerId="SDMI_IFSAR_STATUS_2013122420131224153203794" userText="" style="subgroup" text="Updated February 11, 2014" showFeatureCount="0">
+                        <LayerItem layerId="SDMI_IFSAR_STATUS_2013122420131224153203794" userText="" style="subgroup" text="Updated February 24, 2014" showFeatureCount="0">
                             <VectorClassificationItemNg userText="" text="Acquired FY11 - Downloadable">
                                 <symbols>
                                     <symbol alpha="1" type="fill" name="classificationSymbol">
@@ -122,32 +122,6 @@
                                             <prop k="offset" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="solid"/>
-                                            <prop k="style_border" v="no"/>
-                                            <prop k="width_border" v="0.26"/>
-                                        </layer>
-                                    </symbol>
-                                </symbols>
-                            </VectorClassificationItemNg>
-                            <VectorClassificationItemNg userText="" text="Acquired FY12 - Available Spring 2014">
-                                <symbols>
-                                    <symbol alpha="1" type="fill" name="classificationSymbol">
-                                        <layer pass="0" class="SimpleFill" locked="0">
-                                            <prop k="border_width_unit" v="MM"/>
-                                            <prop k="color" v="0,232,0,255"/>
-                                            <prop k="color_border" v="0,0,0,255"/>
-                                            <prop k="offset" v="0,0"/>
-                                            <prop k="offset_unit" v="MM"/>
-                                            <prop k="style" v="solid"/>
-                                            <prop k="style_border" v="no"/>
-                                            <prop k="width_border" v="0.26"/>
-                                        </layer>
-                                        <layer pass="0" class="SimpleFill" locked="0">
-                                            <prop k="border_width_unit" v="MM"/>
-                                            <prop k="color" v="0,0,0,255"/>
-                                            <prop k="color_border" v="0,0,0,255"/>
-                                            <prop k="offset" v="0,0"/>
-                                            <prop k="offset_unit" v="MM"/>
-                                            <prop k="style" v="dense6"/>
                                             <prop k="style_border" v="no"/>
                                             <prop k="width_border" v="0.26"/>
                                         </layer>
@@ -227,7 +201,7 @@
                         </LayerItem>
                     </GroupItem>
                 </Model>
-                <ComposerItem width="97.5094" x="0" transparency="0" y="2.65004" rotation="0" height="57.5" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.89597" uuid="{77330eac-f00e-4df8-a0a9-075a6627cd58}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="97.5094" x="0" transparency="0" y="2.65004" rotation="0" height="51.5" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.89597" uuid="{77330eac-f00e-4df8-a0a9-075a6627cd58}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -561,7 +535,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>SDMI_IFSAR_STATUS_2013122420131224153203794</id>
             <datasource>./layers/general/SDMI-IFSAR-STATUS_20131224.shp</datasource>
             <title></title>
@@ -569,7 +543,7 @@
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Updated February 11, 2014</layername>
+            <layername>Updated February 24, 2014</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -589,9 +563,8 @@
                 <categories>
                     <category symbol="0" value="Acquired (FY11)" label="Acquired FY11 - Downloadable"/>
                     <category symbol="1" value="Acquired (FY12)" label="Acquired FY12 - Downloadable"/>
-                    <category symbol="2" value="Acquired (FY12) Not Available" label="Acquired FY12 - Available Spring 2014"/>
-                    <category symbol="3" value="Acquired (FY13)" label="Acquired FY13 - Available Summer 2014"/>
-                    <category symbol="4" value="Overcollect" label="Overcollect"/>
+                    <category symbol="2" value="Acquired (FY13)" label="Acquired FY13 - Available Summer 2014"/>
+                    <category symbol="3" value="Overcollect" label="Overcollect"/>
                 </categories>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
@@ -621,28 +594,6 @@
                     <symbol alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="0,232,0,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="no"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="0,0,0,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="style" v="dense6"/>
-                            <prop k="style_border" v="no"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="fill" name="3">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="255,170,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
@@ -652,7 +603,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol alpha="1" type="fill" name="4">
+                    <symbol alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="119,170,255,255"/>
