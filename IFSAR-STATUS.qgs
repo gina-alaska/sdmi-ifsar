@@ -1,13 +1,47 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.0.1-Dufour">
+<qgis projectname="" version="2.4.0-Chugiak">
     <title></title>
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="alaska_63360_py20140408133352175" name="alaska_63360_py">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="SDMI_IFSAR_STATUS_2013122420131224160738199" name="SDMI-IFSAR-Geocells">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-group expanded="1" checked="Qt::Checked" name="ALASKA IFSAR STATUS">
+            <customproperties/>
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="SDMI_IFSAR_STATUS_2014072520140725153333815" name="Updated July 25, 2014">
+                <customproperties/>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Legacy_Intermap20130117130021035" name="Legacy - Downloadable">
+                <customproperties/>
+            </layer-tree-layer>
+        </layer-tree-group>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Cross_Blended_Hypso_with_Shaded_Relief__Water__and_Drainages20140725121040834" name="Cross Blended Hypso with Shaded Relief, Water, and Drainages">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="natural_earth_GRAY_HR_SR_OB_DR20131224155336908" name="Gray Earth with Shaded Relief, Hypsography, Ocean Bottom, and Drainages">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="natural_earth_NE2_HR_LC_SR_W_DR20131224160239523" name="Natural Earth I with Shaded Relief, Water, and Drainages">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="GINA_Bathymetry_bw20130222102000904" name="GINA.Bathymetry.bw">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="GINA_Bathymetry_rgb20130222101855224" name="GINA.Bathymetry.rgb">
+            <customproperties/>
+        </layer-tree-layer>
+    </layer-tree-group>
+    <relations/>
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-2819423.82236740039661527</xmin>
-            <ymin>-400617.46388458181172609</ymin>
-            <xmax>2158039.38587732752785087</xmax>
-            <ymax>3083266.55883763404563069</ymax>
+            <xmin>-2840604.51687056943774223</xmin>
+            <ymin>-852995.40305178798735142</ymin>
+            <xmax>2136858.6913741584867239</xmax>
+            <ymax>3484810.83119723480194807</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -22,22 +56,44 @@
                 <geographicflag>false</geographicflag>
             </spatialrefsys>
         </destinationsrs>
+        <layer_coordinate_transform_info>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="GINA_Bathymetry_bw20130222102000904"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_IFSAR_STATUS_2013122420131224160738199"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_IFSAR_STATUS_2014022420140515102751065"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SDMI_IFSAR_STATUS_2014072520140725153333815"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="alaska_63360_py20140408133352175"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cross_Blended_Hypso_with_Shaded_Relief__Water__and_Drainages20140725121040834"/>
+            <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Legacy_Intermap20130117130021035"/>
+        </layer_coordinate_transform_info>
     </mapcanvas>
+    <layer-tree-canvas>
+        <custom-order enabled="0">
+            <item>alaska_63360_py20140408133352175</item>
+            <item>SDMI_IFSAR_STATUS_2013122420131224160738199</item>
+            <item>Legacy_Intermap20130117130021035</item>
+            <item>natural_earth_GRAY_HR_SR_OB_DR20131224155336908</item>
+            <item>natural_earth_NE2_HR_LC_SR_W_DR20131224160239523</item>
+            <item>GINA_Bathymetry_bw20130222102000904</item>
+            <item>GINA_Bathymetry_rgb20130222101855224</item>
+            <item>Cross_Blended_Hypso_with_Shaded_Relief__Water__and_Drainages20140725121040834</item>
+            <item>SDMI_IFSAR_STATUS_2014072520140725153333815</item>
+        </custom-order>
+    </layer-tree-canvas>
     <legend updateDrawingOrder="true">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="alaska_63360_py" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="alaska_63360_py20140408133352175" visible="1"/>
             </filegroup>
         </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SDMI-IFSAR-Geocells" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS_2013122420131224160738199" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendgroup open="true" checked="Qt::Checked" name="ALASKA IFSAR STATUS">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SDMI-IFSAR-Geocells" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Updated July 25, 2014" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS_2013122420131224160738199" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Updated February 24, 2014" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS_2014022420140515102751065" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="SDMI_IFSAR_STATUS_2014072520140725153333815" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Legacy - Downloadable" showFeatureCount="0">
@@ -46,6 +102,11 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Cross Blended Hypso with Shaded Relief, Water, and Drainages" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Cross_Blended_Hypso_with_Shaded_Relief__Water__and_Drainages20140725121040834" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Gray Earth with Shaded Relief, Hypsography, Ocean Bottom, and Drainages" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="natural_earth_GRAY_HR_SR_OB_DR20131224155336908" visible="0"/>
@@ -68,11 +129,26 @@
         </legendlayer>
     </legend>
     <Composer title="Composer 1" visible="0">
-        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" printAsRaster="0">
+        <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+            <symbol alpha="1" type="fill" name="">
+                <layer pass="0" class="SimpleFill" locked="0">
+                    <prop k="border_width_map_unit_scale" v="0,0"/>
+                    <prop k="border_width_unit" v="MM"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="color_border" v="0,0,0,255"/>
+                    <prop k="joinstyle" v="miter"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_map_unit_scale" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="style" v="solid"/>
+                    <prop k="style_border" v="no"/>
+                    <prop k="width_border" v="0.26"/>
+                </layer>
+            </symbol>
             <ComposerLabel valign="32" labelText="http://alaskamapped.org/dem&#xa;http://ifsar.gina.alaska.edu&#xa;support@gina.alaska.edu" htmlState="0" halign="1" margin="1">
                 <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="55.199" x="212.218" transparency="0" y="172.31" rotation="0" height="14.9186" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.68121" uuid="{bc31ea2a-f97b-4e12-8f9f-def62e58faac}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem pagey="172.31" page="1" id="" lastValidViewScaleFactor="2.68121" positionMode="0" positionLock="false" x="212.218" y="172.31" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="55.199" outlineWidth="0.3" uuid="{bc31ea2a-f97b-4e12-8f9f-def62e58faac}" height="14.9186" itemRotation="0" frame="false" pagex="212.218">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -80,12 +156,12 @@
             <ComposerLabel valign="32" labelText="Three products: Bare-earth DEM (DTM), Surface DEM (DSM), and an orthorectified radar intensity image (ORI).&#xa;&#xa;The elevation models have a 5-meter post spacing, 22-foot contour equivalent accuracy, vertical accuracy of 3-meter LE90 (0-10 degree slope) and horizontal accuracy of 12.2-meter CE90.&#xa;&#xa;Processed and delivered in Alaska Albers Equal Area Conic NAVD88 and NAD83.&#xa;&#xa;The data includes FGDC Metadata, hydrologic enforcement, quality masks, and no more than 3% of void fill." htmlState="0" halign="1" margin="1">
                 <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="60.4205" x="234.49" transparency="0" y="5.15776" rotation="0" height="88.393" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.89597" uuid="{37e9faff-0fe1-4371-ae0c-26aef4f4ceb7}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem pagey="5.15776" page="1" id="" lastValidViewScaleFactor="2.89597" positionMode="0" positionLock="false" x="234.49" y="5.15776" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="60.4205" outlineWidth="0.3" uuid="{37e9faff-0fe1-4371-ae0c-26aef4f4ceb7}" height="88.393" itemRotation="0" frame="false" pagex="234.49">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLegend symbolWidth="7" title="" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
+            <ComposerLegend symbolWidth="7" title="" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
                 <styles>
                     <style marginBottom="2" name="title" font="Sans,16,-1,5,50,0,0,0,0,0"/>
                     <style marginTop="2" name="group" font="Sans,14,-1,5,50,0,0,0,0,0"/>
@@ -95,15 +171,18 @@
                 </styles>
                 <Model autoUpdate="1">
                     <GroupItem userText="ALASKA IFSAR STATUS" style="group" text="ALASKA IFSAR STATUS">
-                        <LayerItem layerId="SDMI_IFSAR_STATUS_2013122420131224153203794" userText="" style="subgroup" text="Updated February 24, 2014" showFeatureCount="0">
+                        <LayerItem layerId="SDMI_IFSAR_STATUS_2014072520140725153333815" userText="" style="subgroup" text="Updated July 25, 2014" showFeatureCount="0">
                             <VectorClassificationItemNg userText="" text="Acquired FY11 - Downloadable">
                                 <symbols>
                                     <symbol alpha="1" type="fill" name="classificationSymbol">
                                         <layer pass="0" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
                                             <prop k="border_width_unit" v="MM"/>
                                             <prop k="color" v="0,170,0,255"/>
                                             <prop k="color_border" v="0,0,0,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
                                             <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="solid"/>
                                             <prop k="style_border" v="no"/>
@@ -116,10 +195,13 @@
                                 <symbols>
                                     <symbol alpha="1" type="fill" name="classificationSymbol">
                                         <layer pass="0" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
                                             <prop k="border_width_unit" v="MM"/>
                                             <prop k="color" v="0,232,0,255"/>
                                             <prop k="color_border" v="0,0,0,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
                                             <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="solid"/>
                                             <prop k="style_border" v="no"/>
@@ -128,14 +210,36 @@
                                     </symbol>
                                 </symbols>
                             </VectorClassificationItemNg>
-                            <VectorClassificationItemNg userText="" text="Acquired FY13 - Available Summer 2014">
+                            <VectorClassificationItemNg userText="" text="Acquired FY13 - Available 2014">
                                 <symbols>
                                     <symbol alpha="1" type="fill" name="classificationSymbol">
                                         <layer pass="0" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
                                             <prop k="border_width_unit" v="MM"/>
                                             <prop k="color" v="255,170,0,255"/>
                                             <prop k="color_border" v="0,0,0,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
                                             <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
+                                            <prop k="offset_unit" v="MM"/>
+                                            <prop k="style" v="solid"/>
+                                            <prop k="style_border" v="no"/>
+                                            <prop k="width_border" v="0.26"/>
+                                        </layer>
+                                    </symbol>
+                                </symbols>
+                            </VectorClassificationItemNg>
+                            <VectorClassificationItemNg userText="" text="Acquired FY14 - Available 2015">
+                                <symbols>
+                                    <symbol alpha="1" type="fill" name="classificationSymbol">
+                                        <layer pass="0" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                                            <prop k="border_width_unit" v="MM"/>
+                                            <prop k="color" v="137,205,102,255"/>
+                                            <prop k="color_border" v="0,0,0,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
+                                            <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="solid"/>
                                             <prop k="style_border" v="no"/>
@@ -148,20 +252,26 @@
                                 <symbols>
                                     <symbol alpha="1" type="fill" name="classificationSymbol">
                                         <layer pass="0" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
                                             <prop k="border_width_unit" v="MM"/>
                                             <prop k="color" v="119,170,255,255"/>
                                             <prop k="color_border" v="0,0,0,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
                                             <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="solid"/>
                                             <prop k="style_border" v="no"/>
                                             <prop k="width_border" v="0.26"/>
                                         </layer>
-                                        <layer pass="0" class="SimpleFill" locked="0">
+                                        <layer pass="1" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
                                             <prop k="border_width_unit" v="MM"/>
                                             <prop k="color" v="0,0,255,255"/>
                                             <prop k="color_border" v="0,0,255,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
                                             <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="f_diagonal"/>
                                             <prop k="style_border" v="no"/>
@@ -176,20 +286,26 @@
                                 <symbols>
                                     <symbol alpha="0.890196" type="fill" name="classificationSymbol">
                                         <layer pass="0" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
                                             <prop k="border_width_unit" v="MM"/>
                                             <prop k="color" v="170,0,0,255"/>
                                             <prop k="color_border" v="0,0,0,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
                                             <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="solid"/>
                                             <prop k="style_border" v="no"/>
                                             <prop k="width_border" v="0.26"/>
                                         </layer>
                                         <layer pass="0" class="SimpleFill" locked="0">
+                                            <prop k="border_width_map_unit_scale" v="0,0"/>
                                             <prop k="border_width_unit" v="MM"/>
                                             <prop k="color" v="0,0,0,255"/>
                                             <prop k="color_border" v="0,0,0,255"/>
+                                            <prop k="joinstyle" v="bevel"/>
                                             <prop k="offset" v="0,0"/>
+                                            <prop k="offset_map_unit_scale" v="0,0"/>
                                             <prop k="offset_unit" v="MM"/>
                                             <prop k="style" v="b_diagonal"/>
                                             <prop k="style_border" v="no"/>
@@ -200,38 +316,23 @@
                             </VectorClassificationItemNg>
                         </LayerItem>
                     </GroupItem>
-                    <LayerItem layerId="SDMI_IFSAR_STATUS_2014022420140515102751065" userText="" style="hidden" text="SDMI-IFSAR-STATUS_20140224" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="SDMI-IFSAR-STATUS_20140224">
-                            <symbols>
-                                <symbol alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="189,187,130,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                    </LayerItem>
                 </Model>
-                <ComposerItem width="97.5094" x="0" transparency="0" y="2.65004" rotation="0" height="59.5" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.90604" uuid="{77330eac-f00e-4df8-a0a9-075a6627cd58}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem pagey="5.15776" page="1" id="" lastValidViewScaleFactor="2.62171" positionMode="0" positionLock="false" x="7.24717" y="5.15776" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="78.3578" outlineWidth="0.3" uuid="{77330eac-f00e-4df8-a0a9-075a6627cd58}" height="55.5" itemRotation="0" frame="false" pagex="7.24717">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
-                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+            <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
                     <symbol alpha="0.3" type="fill" name="">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="255,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="no"/>
@@ -239,36 +340,82 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="68271.5" xmin="-2.15806e+06" ymax="2.6523e+06" xmax="1.46381e+06"/>
+                <Extent ymin="12857.35998244209258701" xmin="-2170516.09577862825244665" ymax="2670460.43089441023766994" xmax="1554483.90802087192423642"/>
                 <LayerSet/>
-                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+                    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+                    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
                     <symbol alpha="1" type="line" name="">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
                             <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
                             <prop k="width" v="0"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="0" precision="3" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0" leftPosition="0" topDirection="0">
-                        <fontColor red="0" blue="0" green="0"/>
+                        <fontColor alpha="255" red="0" blue="0" green="0"/>
                     </Annotation>
                 </Grid>
-                <ComposerItem width="298.807" x="-0.873706" transparency="0" y="-2.18427" rotation="0" height="213.184" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.90604" uuid="{8cff55f8-2c74-4112-b332-5417b03dac1b}" id="" background="false" blendMode="0" positionLock="false">
+                <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem pagey="-2.18427" page="1" id="" lastValidViewScaleFactor="2.62171" positionMode="0" positionLock="false" x="-0.873706" y="-2.18427" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="298.807" outlineWidth="0.3" uuid="{8cff55f8-2c74-4112-b332-5417b03dac1b}" height="213.184" itemRotation="0" frame="false" pagex="-0.873706">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
         </Composition>
     </Composer>
-    <projectlayers layercount="8">
+    <projectlayers layercount="9">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Cross_Blended_Hypso_with_Shaded_Relief__Water__and_Drainages20140725121040834</id>
+            <datasource>crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/png&amp;layers=natural_earth_HYP_HR_SR_W_DR&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Cross Blended Hypso with Shaded Relief, Water, and Drainages</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <noData>
+                <noDataList bandNo="1" useSrcNoData="0"/>
+            </noData>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>GINA_Bathymetry_bw20130222102000904</id>
             <datasource>crs=EPSG:3338&amp;format=image/jpeg&amp;layers=GINA.Bathymetry.bw&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
@@ -292,6 +439,9 @@
             </srs>
             <customproperties/>
             <provider>wms</provider>
+            <noData>
+                <noDataList bandNo="1" useSrcNoData="0"/>
+            </noData>
             <pipe>
                 <rasterrenderer opacity="0.596078" alphaBand="0" band="1" type="singlebandcolordata">
                     <rasterTransparency/>
@@ -325,6 +475,9 @@
             </srs>
             <customproperties/>
             <provider>wms</provider>
+            <noData>
+                <noDataList bandNo="1" useSrcNoData="0"/>
+            </noData>
             <pipe>
                 <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
                     <rasterTransparency/>
@@ -335,7 +488,7 @@
             </pipe>
             <blendMode>0</blendMode>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>Legacy_Intermap20130117130021035</id>
             <datasource>./layers/legacy/Legacy_Intermap.shp</datasource>
             <title></title>
@@ -363,20 +516,26 @@
                 <symbols>
                     <symbol alpha="0.890196" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="170,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="no"/>
                             <prop k="width_border" v="0.26"/>
                         </layer>
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="0,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="b_diagonal"/>
                             <prop k="style_border" v="no"/>
@@ -384,8 +543,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -533,27 +692,50 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" type="0" name="ACQ_END"/>
-                <edittype labelontop="0" editable="1" type="0" name="ACQ_START"/>
-                <edittype labelontop="0" editable="1" type="0" name="Area_sqKM"/>
-                <edittype labelontop="0" editable="1" type="0" name="Corpted"/>
-                <edittype labelontop="0" editable="1" type="0" name="DSM"/>
-                <edittype labelontop="0" editable="1" type="0" name="DTM"/>
-                <edittype labelontop="0" editable="1" type="0" name="ORI"/>
-                <edittype labelontop="0" editable="1" type="0" name="ORI_RESOLU"/>
-                <edittype labelontop="0" editable="1" type="0" name="PROJNAME"/>
-                <edittype labelontop="0" editable="1" type="0" name="TILENAME"/>
-                <edittype labelontop="0" editable="1" type="0" name="TYPE"/>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="TYPE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PROJNAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DSM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DTM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="TILENAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ORI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ORI_RESOLU">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ACQ_START">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ACQ_END">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Corpted">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="Area_sqKM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
             <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>SDMI_IFSAR_STATUS_2013122420131224160738199</id>
             <datasource>./layers/general/SDMI-IFSAR-STATUS_20131224.shp</datasource>
             <title></title>
@@ -581,10 +763,13 @@
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="153,114,197,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="no"/>
                             <prop k="style_border" v="solid"/>
@@ -592,8 +777,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -739,40 +924,73 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" type="0" name="ACQUIRED"/>
-                <edittype labelontop="0" editable="1" type="0" name="ACQ_STATUS"/>
-                <edittype labelontop="0" editable="1" type="0" name="BENEFITS"/>
-                <edittype labelontop="0" editable="1" type="0" name="CELL_ID"/>
-                <edittype labelontop="0" editable="1" type="0" name="DEG_LAT"/>
-                <edittype labelontop="0" editable="1" type="0" name="DEG_LON"/>
-                <edittype labelontop="0" editable="1" type="0" name="DSM"/>
-                <edittype labelontop="0" editable="1" type="0" name="DTM"/>
-                <edittype labelontop="0" editable="1" type="0" name="GEOCELL_ID"/>
-                <edittype labelontop="0" editable="1" type="0" name="NUM_2010"/>
-                <edittype labelontop="0" editable="1" type="0" name="NUM_2011"/>
-                <edittype labelontop="0" editable="1" type="0" name="ORI"/>
-                <edittype labelontop="0" editable="1" type="0" name="PRIORITY"/>
-                <edittype labelontop="0" editable="1" type="0" name="STATE_TILE"/>
-                <edittype labelontop="0" editable="1" type="0" name="STATUS"/>
-                <edittype labelontop="0" editable="1" type="0" name="YEAR"/>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NUM_2010">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NUM_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PRIORITY">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="YEAR">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATUS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DEG_LON">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DEG_LAT">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="GEOCELL_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DSM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DTM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ORI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CELL_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_TILE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ACQUIRED">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BENEFITS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ACQ_STATUS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
             <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>SDMI_IFSAR_STATUS_2014022420140515102751065</id>
-            <datasource>./layers/general/SDMI-IFSAR-STATUS_20140224.shp</datasource>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>SDMI_IFSAR_STATUS_2014072520140725153333815</id>
+            <datasource>./layers/general/SDMI-IFSAR-STATUS_20140725.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>Updated February 24, 2014</layername>
+            <layername>Updated July 25, 2014</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -792,16 +1010,20 @@
                 <categories>
                     <category symbol="0" value="Acquired (FY11)" label="Acquired FY11 - Downloadable"/>
                     <category symbol="1" value="Acquired (FY12)" label="Acquired FY12 - Downloadable"/>
-                    <category symbol="2" value="Acquired (FY13)" label="Acquired FY13 - Available Summer 2014"/>
-                    <category symbol="3" value="Overcollect" label="Overcollect"/>
+                    <category symbol="2" value="Acquired (FY13)" label="Acquired FY13 - Available 2014"/>
+                    <category symbol="3" value="Acquired (FY14)" label="Acquired FY14 - Available 2015"/>
+                    <category symbol="4" value="Overcollect" label="Overcollect"/>
                 </categories>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="0,170,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="no"/>
@@ -810,10 +1032,13 @@
                     </symbol>
                     <symbol alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="0,232,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="no"/>
@@ -822,10 +1047,13 @@
                     </symbol>
                     <symbol alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="255,170,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="no"/>
@@ -834,20 +1062,41 @@
                     </symbol>
                     <symbol alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="119,170,255,255"/>
+                            <prop k="color" v="137,205,102,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="no"/>
                             <prop k="width_border" v="0.26"/>
                         </layer>
+                    </symbol>
+                    <symbol alpha="1" type="fill" name="4">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="119,170,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                        <layer pass="1" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="0,0,255,255"/>
                             <prop k="color_border" v="0,0,255,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="f_diagonal"/>
                             <prop k="style_border" v="no"/>
@@ -858,10 +1107,13 @@
                 <source-symbol>
                     <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="164,129,205,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
@@ -875,8 +1127,9 @@
                     <prop k="discrete" v="0"/>
                     <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
                 </colorramp>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <invertedcolorramp value="0"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -893,12 +1146,17 @@
                 <property key="labeling/bufferNoFill" value="false"/>
                 <property key="labeling/bufferSize" value="1"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidInside" value="false"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/distMapUnitMaxScale" value="0"/>
+                <property key="labeling/distMapUnitMinScale" value="0"/>
                 <property key="labeling/enabled" value="false"/>
                 <property key="labeling/fieldName" value=""/>
                 <property key="labeling/fontBold" value="true"/>
@@ -911,13 +1169,17 @@
                 <property key="labeling/fontMinPixelSize" value="3"/>
                 <property key="labeling/fontSize" value="11"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="75"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
                 <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
                 <property key="labeling/labelPerPart" value="false"/>
                 <property key="labeling/leftDirectionSymbol" value="&lt;"/>
                 <property key="labeling/limitNumLabels" value="false"/>
@@ -938,6 +1200,10 @@
                 <property key="labeling/previewBkgrdColor" value="#ffffff"/>
                 <property key="labeling/priority" value="5"/>
                 <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/repeatDistance" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+                <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+                <property key="labeling/repeatDistanceUnit" value="1"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
                 <property key="labeling/scaleMax" value="10000000"/>
@@ -951,9 +1217,13 @@
                 <property key="labeling/shadowOffsetAngle" value="135"/>
                 <property key="labeling/shadowOffsetDist" value="1"/>
                 <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
                 <property key="labeling/shadowOffsetUnits" value="1"/>
                 <property key="labeling/shadowRadius" value="1.5"/>
                 <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+                <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
                 <property key="labeling/shadowRadiusUnits" value="1"/>
                 <property key="labeling/shadowScale" value="100"/>
                 <property key="labeling/shadowTransparency" value="30"/>
@@ -964,6 +1234,8 @@
                 <property key="labeling/shapeBorderColorG" value="128"/>
                 <property key="labeling/shapeBorderColorR" value="128"/>
                 <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
                 <property key="labeling/shapeBorderWidthUnits" value="1"/>
                 <property key="labeling/shapeDraw" value="false"/>
                 <property key="labeling/shapeFillColorA" value="255"/>
@@ -971,15 +1243,21 @@
                 <property key="labeling/shapeFillColorG" value="255"/>
                 <property key="labeling/shapeFillColorR" value="255"/>
                 <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
                 <property key="labeling/shapeOffsetUnits" value="1"/>
                 <property key="labeling/shapeOffsetX" value="0"/>
                 <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
                 <property key="labeling/shapeRadiiUnits" value="1"/>
                 <property key="labeling/shapeRadiiX" value="0"/>
                 <property key="labeling/shapeRadiiY" value="0"/>
                 <property key="labeling/shapeRotation" value="0"/>
                 <property key="labeling/shapeRotationType" value="0"/>
                 <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/shapeSizeType" value="0"/>
                 <property key="labeling/shapeSizeUnits" value="1"/>
                 <property key="labeling/shapeSizeX" value="0"/>
@@ -1022,32 +1300,65 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" type="0" name="ACQUIRED"/>
-                <edittype labelontop="0" editable="1" type="0" name="ACQ_STATUS"/>
-                <edittype labelontop="0" editable="1" type="0" name="BENEFITS"/>
-                <edittype labelontop="0" editable="1" type="0" name="CELL_ID"/>
-                <edittype labelontop="0" editable="1" type="0" name="DEG_LAT"/>
-                <edittype labelontop="0" editable="1" type="0" name="DEG_LON"/>
-                <edittype labelontop="0" editable="1" type="0" name="DSM"/>
-                <edittype labelontop="0" editable="1" type="0" name="DTM"/>
-                <edittype labelontop="0" editable="1" type="0" name="GEOCELL_ID"/>
-                <edittype labelontop="0" editable="1" type="0" name="NUM_2010"/>
-                <edittype labelontop="0" editable="1" type="0" name="NUM_2011"/>
-                <edittype labelontop="0" editable="1" type="0" name="ORI"/>
-                <edittype labelontop="0" editable="1" type="0" name="PRIORITY"/>
-                <edittype labelontop="0" editable="1" type="0" name="STATE_TILE"/>
-                <edittype labelontop="0" editable="1" type="0" name="STATUS"/>
-                <edittype labelontop="0" editable="1" type="0" name="YEAR"/>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NUM_2010">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NUM_2011">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="PRIORITY">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="YEAR">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATUS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DEG_LON">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DEG_LAT">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="GEOCELL_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DSM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="DTM">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ORI">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="CELL_ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="STATE_TILE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ACQUIRED">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="BENEFITS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ACQ_STATUS">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
             </edittypes>
             <editform></editform>
             <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
             <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>alaska_63360_py20140408133352175</id>
             <datasource>./layers/alaska-boundary/alaska_63360_py.shp</datasource>
             <title></title>
@@ -1075,10 +1386,13 @@
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
                             <prop k="border_width_unit" v="MM"/>
                             <prop k="color" v="157,108,132,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="style" v="no"/>
                             <prop k="style_border" v="solid"/>
@@ -1086,8 +1400,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -1233,14 +1547,25 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" type="0" name="AREA"/>
-                <edittype labelontop="0" editable="1" type="0" name="FEATURE"/>
-                <edittype labelontop="0" editable="1" type="0" name="LEN"/>
-                <edittype labelontop="0" editable="1" type="0" name="SHAPE_Area"/>
-                <edittype labelontop="0" editable="1" type="0" name="SHAPE_Leng"/>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="FEATURE">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="AREA">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="LEN">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SHAPE_Leng">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="SHAPE_Area">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
             <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
@@ -1272,6 +1597,9 @@
                 <property key="identify/format" value="Undefined"/>
             </customproperties>
             <provider>wms</provider>
+            <noData>
+                <noDataList bandNo="1" useSrcNoData="0"/>
+            </noData>
             <pipe>
                 <rasterrenderer opacity="0.498039" alphaBand="0" band="1" type="singlebandcolordata">
                     <rasterTransparency/>
@@ -1307,6 +1635,9 @@
                 <property key="identify/format" value="Undefined"/>
             </customproperties>
             <provider>wms</provider>
+            <noData>
+                <noDataList bandNo="1" useSrcNoData="0"/>
+            </noData>
             <pipe>
                 <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
                     <rasterTransparency/>
@@ -1357,6 +1688,39 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
+        <Digitizing>
+            <LayerSnappingList type="QStringList">
+                <value>Legacy_Intermap20130117130021035</value>
+                <value>SDMI_IFSAR_STATUS_2013122420131224160738199</value>
+                <value>alaska_63360_py20140408133352175</value>
+                <value>SDMI_IFSAR_STATUS_2014072520140725153333815</value>
+            </LayerSnappingList>
+            <LayerSnappingEnabledList type="QStringList">
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+                <value>enabled</value>
+            </LayerSnappingEnabledList>
+            <AvoidIntersectionsList type="QStringList"/>
+            <LayerSnappingToleranceUnitList type="QStringList">
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+                <value>0</value>
+            </LayerSnappingToleranceUnitList>
+            <LayerSnapToList type="QStringList">
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+                <value>to_vertex</value>
+            </LayerSnapToList>
+            <LayerSnappingToleranceList type="QStringList">
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+                <value>0.000000</value>
+            </LayerSnappingToleranceList>
+        </Digitizing>
         <Identify>
             <disabledLayers type="QStringList"/>
         </Identify>
